@@ -1,0 +1,17 @@
+name: QCI
+channels:
+ - conda-forge
+dependencies:
+ - python
+ - numpy
+ - pip:
+   - psutil
+   - bqplot
+   - ipyvolume
+   - scipy
+   - matplotlib
+   - ipywidgets
+   - rise
+   - pandas
+   - seaborn
+   - RISE
